@@ -1,5 +1,7 @@
 So, you’ve decided to dive into contributing to the Eclipse IDE. This is an awesome choice! Contributing to such a powerful tool is not only a great way to sharpen your skills but also to give back to the community. Below, you’ll find a handy table listing some of the key projects under the Eclipse IDE. Take a look and get familiar with the projects, their repositories, and how you can start making an impact. Let’s get started!
 
+Oh, and here’s some good news! You don’t need to set everything up manually. Just grab the setup file, and you’ll be ready to start contributing in a few minutes ! It’s like magic for getting your environment up and running so you can focus on coding and making a difference. Time to show off those skills! 💻🚀
+
 
 | Project              | Github URL                               | Readme               | COC | Total Repositories | Java Code Repositories | Deprecated Repositories | Contribution Page        | Active Contributors | Opened Issues | Good First Issues | Contribution Tooling | Pending PR | New Issue Process     |
 |----------------------|-------------------------------------------|----------------------|-----|--------------------|------------------------|-------------------------|--------------------------|--------------------|---------------|-------------------|-----------------------|------------|-----------------------|
