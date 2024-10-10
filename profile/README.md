@@ -13,9 +13,9 @@ Eclipse is the leading open platform for professional developers.
 Eclipse is famous for being an _Integrated Development Environment_ (IDE) for the _Java_™ programming language but is also well capable of other languages like C/C++, JavaScript or TypeScript, to just name a few.
 At its core Eclipse is a highly extensible platform and a comprehensive set of frameworks and common services that collectively provide a powerful software development infrastructure used for numerous free and open as well as for commercial products and applications.
 
-This page is intended to be the start for everyone interested in contributing to the Eclipse IDE.
+This page is intended as starting point for everyone interested in contributing to the Eclipse IDE.
 <br>
-Users of the Eclipse IDE should start at: https://eclipseide.org/
+Users of the Eclipse IDE should visit [eclipseide.org](https://eclipseide.org)
 
 ## Developing and Contributing
 
@@ -39,9 +39,21 @@ The [Eclipse Download page](https://www.eclipse.org/downloads/packages/) provide
 Users can further customize their Eclipse IDE by installing more Features/Plug-ins from the [Simultaneous Release Repository](https://download.eclipse.org/releases/), the [Eclipse Marketplace](https://marketplace.eclipse.org/) or just any p2-Repository available for them.
 Undesired Features can also be uninstalled.
 
+#### Fundamental components
+
+:globe_with_meridians: **Platform** contains the core code that powers Eclipse as a Rich Client Platform (RCP), which is used to build powerful desktop applications, no matter the type of app.
+
+:computer: **JDT** is all about the tools for developing Java within the IDE, making Java development smooth and efficient. 
+
+:arrows_counterclockwise: **EGit** provides all the tools needed to work with Git version control, essential for collaboration in open source projects. 
+
+:electric_plug: **PDE** focuses on developing plug-ins for Eclipse, allowing users to extend its functionality in new and exciting ways. 
+
+:hammer: **M2E** integrates the _Maven_ build tool into Eclipse, enabling seamless configuration and execution of Maven builds.
+
 ## Community
 
-The _Eclipse IDE_ is an _Eclipse Community project_ and as such obeys the governance rules described in the [Eclipse Development Process](https://www.eclipse.org/projects/dev_process/) to guarantee meritocracry, diversity, vendor-neutrality and business-friendliness.
+The _Eclipse IDE_ is an _Eclipse Community project_ and as such obeys the governance rules described in the [Eclipse Development Process](https://www.eclipse.org/projects/dev_process/) to guarantee meritocracy, diversity, vendor-neutrality and business-friendliness.
 
 Please bear in mind that the Eclipse IDE as a whole and the contributing projects are often developed by volunteers and the Eclipse IDE is not a product you contracted for.
 As a result, the contributors may not be able to look into some support requests.
