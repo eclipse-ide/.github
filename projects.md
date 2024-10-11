@@ -1,11 +1,19 @@
-TODO: Make this a comprehensive guide about how to find the desired project and provide an overview about all available projects/repositories
 
-TODO: provide a list of all SimRel (or even all Eclipse projects), ideally something that's derived from EF PMI,
-but it should also help interested contributors to find the corresponding project.
+Contributing to open source can seem intimidating at first, but don’t worry! Getting involved in the Eclipse projects is actually straightforward, and you’ll be working with an awesome community.
 
-TODO: tips to identify the Plug-in of interest?
-- Alt+Shift+F1
-- Repository references encoded in Plug-in MANIFEST.MF files?!
+💻 JDT is all about the tools for developing Java within the IDE, making Java development smooth and efficient.
+🔄 EGit provides all the tools needed to work with Git version control, essential for collaboration in open source projects.
+🔌 PDE focuses on developing plugins for Eclipse, allowing users to extend its functionality in new and exciting ways.
+🌐 Platform contains the core code that powers Eclipse as a Rich Client Platform (RCP), which is used to build powerful desktop applications, no matter the type of app.
+
+Each project is generally split into two parts: core (handling the internal logic) and ui (managing the user interface). Sometimes these are in separate repositories, and other times they are organized in different folders within the same repository. This makes it easier to understand the internal workings and how they are presented to users.
+
+🎯 If you need to fix something in the user interface—whether it’s a dialog, view, perspective, or preferences page—you can easily find the Java class implementing the UI element. Just use the shortcut Alt+Shift+F1 to instantly see the plugin containing the class, so you know exactly which project to work on.
+
+📥 To start contributing, select the relevant setup file. This will fetch the code directly from GitHub, allowing you to create pull requests (PRs) or submit changes through GerritHub for EGit. You can consult the associated contribution guide listed in the table below. The whole process of getting the project ready happens through the setup file, so you’ve already done that in Step 1. After that, each project has its own contribution rules, but overall, they are similar and typically involve submitting your work via a Pull Request or a change on GerritHub.
+
+🚀 You’ve got this! With the right tools and support, contributing to Eclipse is easier than you might think. Dive in and start making a difference!
+
 
 | Project / Repository | Description | Contribution Page | Setup Files | Issues | Good First Issues | Pending PR |
 |---------------------|-------------|-------------------|-------------|--------|------------------|------------|
