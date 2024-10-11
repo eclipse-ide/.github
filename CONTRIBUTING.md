@@ -38,7 +38,7 @@ Once you've downloaded the installer, proceed to the next step to install a proj
 
 ### Step 2: Install a Project to Contribute to
 
-Once you have the Eclipse Installer, you can set up both an IDE and a project to contribute to. Eclipse provides a special "setup" file for each project, which automates the installation and configuration process. You can find the full list of available projects in the `projets.md` file. 
+Once you have the Eclipse Installer, you can set up both an IDE and a project to contribute to. Eclipse provides a special "setup" file for each project, which automates the installation and configuration process. [Click here](projects.md) for a complete list of Eclipse IDE  projects. 
 
 However, to make things easier and get you started quickly, we recommend installing the setup for the **eclipse.platform.ui** project. This will allow you to get familiar with the contribution process.
 
