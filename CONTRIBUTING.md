@@ -39,6 +39,8 @@ Once you've downloaded the installer, proceed to the next step to install a proj
 
 Once you have the Eclipse Installer, you can set up both an IDE and a project to contribute to. Eclipse provides a special "setup" file for each project, which automates the installation and configuration process. [Click here](projects.md) for a complete list of Eclipse IDE  projects. 
 
+**💡 Tip:** If you're on a Mac, check out [this page](InstallerOnMacosX.md) for installation instructions.
+
 However, to make things easier and get you started quickly, we recommend installing the setup for the **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
 
 __Drag and drop the setup link in the banner__
