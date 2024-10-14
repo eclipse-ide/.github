@@ -18,12 +18,12 @@ Each project is generally split into two parts: core (handling the internal logi
 🚀 You’ve got this! With the right tools and support, contributing to Eclipse is easier than you might think. Dive in and start making a difference!
 
 
-| Project | Repository and Setup | Description | Contribution Page | 
+| Project | Repository and Setup to drag and drop in Eclipse Installer | Description | Contribution Page and Good First Issues | 
 |---------|------------|-------------|-------------------|
 | **[Eclipse Platform](https://github.com/eclipse-platform)** |  | The global Eclipse Platform project [See more](https://projects.eclipse.org/projects/eclipse.platform) | [CONTRIBUTING.md](https://github.com/eclipse-platform/.github/blob/main/CONTRIBUTING.md) |
 | | [eclipse.platform](https://github.com/eclipse-platform/eclipse.platform) | The repository with all the code that is not UI concerned | [Good First Issues](https://github.com/eclipse-platform/eclipse.platform/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) | 
 | |  [eclipse.platform.ui](https://github.com/eclipse-platform/eclipse.platform.ui) ![Static Badge](https://img.shields.io/badge/setup-orange?style=plastic&link=https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup) | The UI of Eclipse  | [Good First Issues](https://github.com/eclipse-platform/eclipse.platform.ui/labels/good%20first%20issue) | 
-| |  [eclipse.swt](https://github.com/eclipse-platform/eclipse.platform.swt) | The SWT library | [Good First Issues](https://github.com/eclipse-platform/eclipse.platform.swt/labels/good%20first%20issue)  |  
+| |  [eclipse.swt](https://github.com/eclipse-platform/eclipse.platform.swt)  [![Drag this link](https://img.shields.io/badge/Drag%20this%20link-blue)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup) | The SWT library | [Good First Issues](https://github.com/eclipse-platform/eclipse.platform.swt/labels/good%20first%20issue)  |  
 |  |  |  |  
 | **[EGit](https://github.com/eclipse-egit/)** | |  The EGit project [See more](https://projects.eclipse.org/projects/technology.egit) | [EGit Contributor Guide](https://github.com/eclipse-egit/egit/wiki/Contributor-Guide) |  
 | |  [egit](https://github.com/eclipse-egit/egit) | The eclipse git implementation  | [Good First Issues](https://github.com/eclipse-egit/egit/labels/good%20first%20issue)   |  
