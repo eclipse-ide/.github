@@ -11,7 +11,7 @@ __Switching directly to Advanced Mode__
 
 __Installing the Project__
 
-1. Copy the URL of a project's setup file (see [projects.md](projects.md)) (right click on a setup button and select "Copy Link"). You can also use this one for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Right click to copy the provided link for eclipse.platform.ui")).
+1. Copy the URL of a project's setup file (see [projects.md](projects.md)) (right click on a setup button and select "Copy Link"). You can also use this one for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Right click to copy the provided link for eclipse.platform.ui").
 2. Once this URL is in the clipboard the 'Apply configuration from the clipboard' button will be displayed (see below), click in the button and follow the wizard:
 
 ![Copy setup](images/InstallerCopySetup.jpg) 
