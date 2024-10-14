@@ -39,38 +39,28 @@ Once you've downloaded the installer, proceed to the next step to install a proj
 
 Once you have the Eclipse Installer, you can set up both an IDE and a project to contribute to. Eclipse provides a special "setup" file for each project, which automates the installation and configuration process. [Click here](projects.md) for a complete list of Eclipse IDE  projects. 
 
-However, to make things easier and get you started quickly, we recommend installing the setup for the **eclipse.platform.ui** project. This will allow you to get familiar with the contribution process.
+However, to make things easier and get you started quickly, we recommend installing the setup for the **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
 
-__Switching to Advanced Mode__
+__Drag and drop the setup link in the banner__
 
-To install both an IDE and a project simultaneously, you need to switch the Eclipse Installer to **Advanced Mode**. Here's how:
 1. Start the Eclipse Installer.
-2. In the bottom-left corner of the window, click on the gear icon ⚙️ and select "Advanced Mode" from the menu. 
+2. Drag and drop the setup link direclty in the Eclipse Installer Banner
 
-I will provide a screenshot to illustrate this step here.
+![DragAndDrop](images/DragAndDropSetup.jpg) 
 
-__Installing the Project__
-
-Once you are in Advanced Mode, follow these steps:
-1. Copy the URL of the project's setup file (e.g., for **eclipse.platform.ui**, use the appropriate URL from the `projets.md` file).
-
-Once this URl is in the clipboard the 'Apply configuration from the clipboard' button will be displayed (see below), click in the button and follow the wizard:
-
-![Copy setup](images/InstallerCopySetup.jpg) 
-
-
-3. The installer will automatically find and select the correct setup for the project. You can then follow the steps to complete the installation.
+3. Switch to advanced mode (the installer will propose it as we will install an Eclipse IDE with project(s) inside).
+4. You can set up the variables but default values are OK.
+5. Follow the steps to complete the installation.
 
 The installation process works in two phases:
 - First, the installer will set up the Eclipse IDE needed for development. When you click on finish, your IDE will start. 
-- Then, once the IDE is launched, it will proceed to install the project you want to contribute to within the IDE. Just wait for the full download.
+- Then, once the IDE is launched, it will proceed to install the project(s) you want to contribute to within the IDE. Just wait for the full download.
 
 This ensures that both your development environment and the project are properly configured for you to start contributing.
 
 > 💡 **Tip**: Sometimes, the project may not clone correctly due to network issues or slow response times. If this happens, click the 'Back' button, uncheck the 'Mirrors' option, and then continue the installation process.
 
 __Advanced Configurations__
-
 
 ℹ️ **Note**: The Eclipse Installer also provides a range of advanced configuration options that are useful when working on more complex projects. These options allow you to customize your IDE setup, manage multiple environments, and more. For further details on using the advanced features of the installer, [visit this page ->TO BE FIXED]().
 
@@ -81,7 +71,9 @@ __Advanced Configurations__
 
 Now that you have the project set up, it's time to dive into the code! Open the project in Eclipse, find a part of the code you'd like to modify (e.g., fixing a bug or improving a feature), and make your changes. Even if you’re new to the codebase, this is a great way to get started and familiarize yourself with how everything works.
 
-💡 **Idea**: If you're not sure what to change in the code for now, you can edit the file `eclipse.platform/debug/org.eclipse.ui.console/plugin.properties` and modify line 17 to change the name of the console view. This is a simple way to make a visible modification and see your changes in action.
+💡 **Idea**: If you're not sure what to change in the code for now, you can edit the file `eclipse.platform/debug/org.eclipse.ui.console/plugin.properties` and modify line 17 to change the name of the console view. This is a simple way to make a visible modification and see your changes in action. 
+
+_Of course this modification is possible if you downloaded the **eclipse.platform.ui** setup._
 
 
 ### Step 4: See Your Changes by Running the Project
