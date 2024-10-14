@@ -1,3 +1,4 @@
+# The different projects in the Eclipse IDE and their setup 🚀
 
 Contributing to open source can seem intimidating at first, but don’t worry! Getting involved in the Eclipse projects is actually straightforward, and you’ll be working with an awesome community.
 
