@@ -24,14 +24,13 @@ This part will take around 10 minutes and will guide you through setting up a lo
 
 ### Step 1: Download the Eclipse Installer 🌟
 
-The first step is to download the Eclipse Installer, which will help you set up your development environment. You only need to download the installer once, and it can be reused for any future projects you contribute to. Choose the appropriate version based on your operating system from the links below:
+The first step is to download the Eclipse Installer, which will help you set up your development environment. You only need to download the installer once, and it can be reused for any future projects you contribute to. The installer will automatically updates itself. Choose the appropriate version based on your operating system from the links below:
 
-[![Download for Windows x86_64](images/button_windows_x86_64_download.svg)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-win64.exe)
-[![Download for Windows AArch64](images/button_windows_aarch64_download.svg)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-win64.exe)
-[![Download for Mac OS x86_64](images/button_macosx_x86_64_download.svg)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac64.dmg)
-[![Download for Mac OS AArch64](images/button_macosx_aarch64_download.svg)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac-aarch64.dmg)
-[![Download for Linux x86_64](images/button_linux_x86_64_download.svg)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux64.tar.gz)
-[![Download for Linux AArch64](images/button_linux_aarch64_download.svg)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux-aarch64.tar.gz)
+|                   | Windows                                 | Mac OS                                  | Linux                                   |
+|-------------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|
+| **x86_64**        | [![Download for Windows x86_64](https://img.shields.io/badge/Download-Windows%20x86__64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-win64.exe) | [![Download for Mac OS x86_64](https://img.shields.io/badge/Download-Mac%20OS%20x86__64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac64.dmg) | [![Download for Linux x86_64](https://img.shields.io/badge/Download-Linux%20x86__64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux64.tar.gz) |
+| **AArch64**       | Not yet available  | [![Download for Mac OS AArch64](https://img.shields.io/badge/Download-Mac%20OS%20AArch64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac-aarch64.dmg) | [![Download for Linux AArch64](https://img.shields.io/badge/Download-Linux%20AArch64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux-aarch64.tar.gz) |
+
 
 Once you've downloaded the installer, proceed to the next step to install a project to work on.
 
