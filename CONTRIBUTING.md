@@ -7,41 +7,33 @@ This guide is split into two parts to help you get started:
 
 1. **Part 1: Setting up your development environment** – This quick and easy step will take around 10 minutes. You’ll install everything you need to start testing modifications in a working development environment, without any constraints. It’s perfect for seeing how anyone can easily make code changes locally in Eclipse!
 
-
-
 2. **Part 2: Contributing to the project** – Once you have a working environment, this section will walk you through setting up accounts, making contributions, and engaging with the community.
-
-Let’s dive into each part!
-
-
-
-
-
 
 ## Part 1: Setting up your development environment ⚙️
 
-This part will take around 10 minutes and will guide you through setting up a local development environment where you can test code modifications. It's designed to be simple and ensure that everyone can make changes locally in Eclipse.
+This part will guide you through setting up a local development environment where you can test code modifications. It's designed to be simple and ensures that everyone can make changes locally in Eclipse  and will take around 10 minutes.
 
 ### Step 1: Download the Eclipse Installer 🌟
 
-The first step is to download the Eclipse Installer, which will help you set up your development environment. You only need to download the installer once, and it can be reused for any future projects you contribute to. The installer will automatically updates itself. Choose the appropriate version based on your operating system from the links below:
+The first step is to download the Eclipse Installer.
+You only need to download the installer once, it can automatically updates itself, and you can reuse it any future projects you contribute to.
+Choose the appropriate version based on your operating system from the following links:
 
 |                   | Windows                                 | Mac OS                                  | Linux                                   |
 |-------------------|-----------------------------------------|-----------------------------------------|-----------------------------------------|
-| **x86_64**        | [![Download for Windows x86_64](https://img.shields.io/badge/Download-Windows%20x86__64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-win64.exe) | [![Download for Mac OS x86_64](https://img.shields.io/badge/Download-Mac%20OS%20x86__64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac64.dmg) | [![Download for Linux x86_64](https://img.shields.io/badge/Download-Linux%20x86__64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux64.tar.gz) |
-| **AArch64**       | Not yet available  | [![Download for Mac OS AArch64](https://img.shields.io/badge/Download-Mac%20OS%20AArch64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac-aarch64.dmg) | [![Download for Linux AArch64](https://img.shields.io/badge/Download-Linux%20AArch64-green)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux-aarch64.tar.gz) |
+| **x86_64**        | [![Download for Windows x86_64](https://img.shields.io/badge/Download-Windows%20x86__64-midnightblue?style=for-the-badge&logo=eclipseide)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-win64.exe) | [![Download for Mac OS x86_64](https://img.shields.io/badge/Download-Mac%20OS%20x86__64-midnightblue?style=for-the-badge&logo=eclipseide)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac64.dmg) | [![Download for Linux x86_64](https://img.shields.io/badge/Download-Linux%20x86__64-midnightblue?style=for-the-badge&logo=eclipseide)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux64.tar.gz) |
+| **AArch64**       | _Comming soon_  | [![Download for Mac OS AArch64](https://img.shields.io/badge/Download-Mac%20OS%20AArch64-midnightblue?style=for-the-badge&logo=eclipseide)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-mac-aarch64.dmg) | [![Download for Linux AArch64](https://img.shields.io/badge/Download-Linux%20AArch64-midnightblue?style=for-the-badge&logo=eclipseide)](https://www.eclipse.org/downloads/download.php?file=/oomph/products/eclipse-inst-jre-linux-aarch64.tar.gz) |
 
 
 Once you've downloaded the installer, proceed to the next step to install a project to work on.
 
-
 ### Step 2: Install a Project to Contribute to
 
-Once you have the Eclipse Installer, you can set up both an IDE and a project to contribute to. Eclipse provides a special "setup" file for each project, which automates the installation and configuration process. [Click here](projects.md) for a complete list of Eclipse IDE  projects. 
+Once you have the Eclipse Installer, you can set up both an IDE and a workspace containing the source-code of the project to contribute to. Each Eclipse project provides an individual _Setup_ file, which automates the installation and configuration process. See the [Project Guide](projects.md) for a list of Eclipse IDE projects. 
 
-**💡 Tip:** If you're on a Mac, check out [this page](InstallerOnMacosX.md) for installation instructions.
+**💡 Tip:** If you're on a Mac, check out the [additional installation instructions for Mac](InstallerOnMacosX.md).
 
-However, to make things easier and get you started quickly, we recommend installing the setup for the **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
+If you have not yet choosen a projec to contribute to, you can for example use the setup for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
 
 __Drag and drop the setup link in the banner__
 
@@ -62,20 +54,17 @@ This ensures that both your development environment and the project are properly
 
 > 💡 **Tip**: Sometimes, the project may not clone correctly due to network issues or slow response times. If this happens, click the 'Back' button, uncheck the 'Mirrors' option, and then continue the installation process.
 
-__Advanced Configurations__
+__Advanced Configuration__
 
-ℹ️ **Note**: The Eclipse Installer also provides a range of advanced configuration options that are useful when working on more complex projects. These options allow you to customize your IDE setup, manage multiple environments, and more. For further details on using the advanced features of the installer, [visit this page ->TO BE FIXED]().
-
-
-
+The Eclipse Installer also provides a range of advanced configuration options that are useful when working on more complex projects. These options allow you to customize your IDE setup, manage multiple environments, and more. For further details on using the advanced features of the installer, [visit this page ->TO BE FIXED]().
 
 ### Step 3: Modify the Code
 
 Now that you have the project set up, it's time to dive into the code! Open the project in Eclipse, find a part of the code you'd like to modify (e.g., fixing a bug or improving a feature), and make your changes. Even if you’re new to the codebase, this is a great way to get started and familiarize yourself with how everything works.
 
-💡 **Idea**: If you're not sure what to change in the code for now, you can edit the file `eclipse.platform/debug/org.eclipse.ui.console/plugin.properties` and modify line 17 to change the name of the console view. This is a simple way to make a visible modification and see your changes in action. 
+💡 **Idea**: If you're not sure what to change in the code for now, you can open in the `org.eclipse.ui.console` project the `plugin.properties` file and modify line 17 to change the name of the console view. This is a simple way to make a visible modification and see your changes in action.
 
-_Of course this modification is possible if you downloaded the **eclipse.platform.ui** setup._
+_Of course this modification is only possible if you chosen the **eclipse.platform.ui** setup._
 
 
 ### Step 4: See Your Changes by Running the Project
@@ -91,39 +80,11 @@ You should see that the title of the Console view has been modified, reflecting 
 
 ![Copy setup](images/RunYourChanges.jpg)
 
-
 🎉 **Congratulations!** You’ve successfully completed the first step of becoming a contributor: you’ve installed Eclipse, made code modifications, and successfully launched a modified version of the IDE. Great job! You are now ready to dive deeper into contributing to Eclipse projects.
-
-
-  
-    
-      
- <br><br><br><br><br>
- 
-    
-      
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Part 2: Contributing to the project ⚙️
 
-
-
-
-
-## Setting up an Eclipse and GitHub Account
+### Setting up an Eclipse and GitHub Account
 
 Create an [Eclipse account](https://accounts.eclipse.org/) if you don't already have one. 
 See the ["Eclipse Foundation Account" section](https://www.eclipse.org/projects/handbook/#contributing-account) in the Eclipse Committer Handbook.
@@ -144,8 +105,6 @@ You can do this by logging into your Eclipse account, choosing ["Edit Profile"](
 
 To be able to push to your repository you should also add your [SSH public key to your GitHub account](https://github.com/settings/keys).
 Pushing via `https` is not recommended.
-
-
 
 ## Submitting a contribution for a project hosted at Github
 
