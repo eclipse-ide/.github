@@ -27,7 +27,7 @@ Each project is generally split into two parts: core (handling the internal logi
 | |  [![Drag this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.swt/master/bundles/org.eclipse.swt.tools/Oomph/PlatformSWTConfiguration.setup "Drag this link in the banner of the Eclipse Installer") [eclipse.swt](https://github.com/eclipse-platform/eclipse.platform.swt) | The SWT library | [Good First Issues](https://github.com/eclipse-platform/eclipse.platform.swt/labels/good%20first%20issue)  |  
 |  |  |  |  
 | **[EGit](https://github.com/eclipse-egit/)** | |  The EGit project [See more](https://projects.eclipse.org/projects/technology.egit) | [EGit Contributor Guide](https://github.com/eclipse-egit/egit/wiki/Contributor-Guide) |  
-| |  [egit](https://github.com/eclipse-egit/egit) | The eclipse git implementation  | [Good First Issues](https://github.com/eclipse-egit/egit/labels/good%20first%20issue)   |  
+| |  [egit](https://github.com/eclipse-egit/egit) | The eclipse git UI integration| [Good First Issues](https://github.com/eclipse-egit/egit/labels/good%20first%20issue)   |  
 | |  [jgit](https://github.com/eclipse/jgit) | The java GIT API and implementation | [Good First Issues](https://github.com/eclipse-jgit/jgit/labels/good%20first%20issue) | 
 |  |  |  | 
 | **[JDT](https://github.com/eclipse-jdt/)** | | The Java Development Tools project [See more](https://projects.eclipse.org/projects/eclipse.jdt) | [CONTRIBUTING.md](https://github.com/eclipse-jdt/.github/blob/main/CONTRIBUTING.md) | 
