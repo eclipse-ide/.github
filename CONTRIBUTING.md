@@ -33,7 +33,7 @@ Once you have the Eclipse Installer, you can set up both an IDE and a workspace 
 
 **💡 Tip:** If you're on a Mac, check out the [additional installation instructions for Mac](InstallerOnMacosX.md).
 
-If you have not yet choosen a projec to contribute to, you can for example use the setup for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
+If you have not yet chosen a projec to contribute to, you can for example use the setup for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
 
 __Drag and drop the setup link in the banner__
 
@@ -64,7 +64,7 @@ Now that you have the project set up, it's time to dive into the code! Open the 
 
 💡 **Idea**: If you're not sure what to change in the code for now, you can open in the `org.eclipse.ui.console` project the `plugin.properties` file and modify line 17 to change the name of the console view. This is a simple way to make a visible modification and see your changes in action.
 
-_Of course this modification is only possible if you chosen the **eclipse.platform.ui** setup._
+_Of course this modification is only possible if you have chosen the **eclipse.platform.ui** setup._
 
 
 ### Step 4: See Your Changes by Running the Project
