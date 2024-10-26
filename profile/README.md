@@ -36,12 +36,12 @@ The _components_ of Eclipse are called `Plug-ins` and are grouped into `Features
 Most active projects release quarterly about the same time in a coordinated processes called the _Simultaneous Release_.
 
 The [Eclipse Download page](https://www.eclipse.org/downloads/packages/) provides various predefined _Eclipse IDE Packages_, each of them bundling a different set of Features and Plug-ins from the corresponding SimRel.
-Users can further customize their Eclipse IDE by installing more Features/Plug-ins from the [Simultaneous Release Repository](https://download.eclipse.org/releases/), the [Eclipse Marketplace](https://marketplace.eclipse.org/) or just any p2-Repository available for them.
+Users can further customize their Eclipse IDE by installing more Features/Plug-ins from the [Simultaneous Release Repository](https://download.eclipse.org/releases/), the [Eclipse Marketplace](https://marketplace.eclipse.org/) or just any p2-repository available to them.
 Undesired Features can also be uninstalled.
 
 #### Fundamental components
 
-:globe_with_meridians: **Platform** contains the core code that powers Eclipse as a Rich Client Platform (RCP), which is used to build powerful desktop applications, no matter the type of app.
+:globe_with_meridians: Eclipse-**Platform** contains the core code that powers Eclipse as a Rich Client Platform (RCP), which is used to build powerful desktop applications, no matter the type of app.
 
 :computer: **JDT** is all about the tools for developing Java within the IDE, making Java development smooth and efficient. 
 
@@ -63,6 +63,10 @@ If it is a serious bug, other people than you might care enough to provide a fix
 As a consequence of all that, the only sure way to ensure some issue gets fixed or some feature gets implemented is that you contribute it yourself and convince some contributor that the change you submit is in the best interest of the project.
 
 As you contribute more and more, you will eventually get nominated as a committer on the project.
+
+## Contact
+
+If the provided information is insufficient: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](../help.md)
 
 ## Technical and reference documentation
 
