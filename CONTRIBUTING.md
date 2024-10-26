@@ -1,13 +1,17 @@
 
 # Your Contributor Journey 🚀
 
-Welcome to the start of an exciting journey as a contributor to the Eclipse IDE project! 🌟 Becoming a contributor is more than just writing code—it's about joining a vibrant community, learning new skills, and making a real impact. Whether you're looking to sharpen your abilities or give back to open source, you're in the right place.
+Welcome to the start of an exciting journey as a contributor to the Eclipse IDE project! 🌟
+Becoming a contributor is more than just writing code — it's about joining a vibrant community, learning new skills, and making a real impact.
+Whether you're looking to sharpen your abilities or give back to open source, you're in the right place.
 
 This guide is split into two parts to help you get started:
 
 1. **Part 1: Setting up your development environment** – This quick and easy step will take around 10 minutes. You’ll install everything you need to start testing modifications in a working development environment, without any constraints. It’s perfect for seeing how anyone can easily make code changes locally in Eclipse!
 
 2. **Part 2: Contributing to the project** – Once you have a working environment, this section will walk you through setting up accounts, making contributions, and engaging with the community.
+
+Feel free to ask assistance if the provided information is insufficient: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](help.md)
 
 ## Part 1: Setting up your development environment ⚙️
 
