@@ -31,7 +31,7 @@ Once you've downloaded the installer, proceed to the next step to install a proj
 
 Once you have the Eclipse Installer, you can set up both an IDE and a workspace containing the source-code of the project to contribute to. Each Eclipse project provides an individual _Setup_ file, which automates the installation and configuration process. See the [Project Guide](projects.md) for a list of Eclipse IDE projects. 
 
-**💡 Tip:** If you're on a Mac, check out the [additional installation instructions for Mac](InstallerAdvancedOptions.md#install-with-copypaste-for-macos-users).
+**💡 Tip:** If you're on a Mac, you're using the latest version of the installer, because there used to be problems with drag&drop.
 
 If you have not yet chosen a projec to contribute to, you can for example use the setup for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
 
