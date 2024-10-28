@@ -49,7 +49,7 @@ If you have not yet chosen a projec to contribute to, you can for example use th
    2. Select the location of a suitable JDK on your computer.
    If you don't have one installed yet, [Adoptium](https://adoptium.net/) offers free high-quality JDKs for download. 
    > 💡 **Tip 1**: Hovering over the variable name on the left side activates a tool-tip with an explanation.<br>
-   > **Tip 2**: The [advanced variable configuration](InstallerAdvancedOptions.md#advanced-variable-configuration) section describes more possibilities to configure all these locations.
+   > 💡 **Tip 2**: The [advanced variable configuration](InstallerAdvancedOptions.md#advanced-variable-configuration) section describes more possibilities to configure all these locations.
    
    ![RootFolder](images/RootFolder.png)
 5. Follow the remainig steps to complete the installation.
