@@ -16,7 +16,7 @@ This part will guide you through setting up a local development environment wher
 ### Step 1: Download the Eclipse Installer 🌟
 
 The first step is to download the Eclipse Installer.
-You only need to download the installer once, it can automatically updates itself, and you can reuse it any future projects you contribute to.
+You only need to download the installer once, it can automatically updates itself, and you can reuse it for any future projects you contribute to.
 Choose the appropriate version based on your operating system from the following links:
 
 |                   | Windows                                 | Mac OS                                  | Linux                                   |
