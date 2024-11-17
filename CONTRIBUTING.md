@@ -11,7 +11,7 @@ This guide is split into two parts to help you get started:
 
 2. **Part 2: Contributing to the project** – Once you have a working environment, this section will walk you through setting up accounts, making contributions, and engaging with the community.
 
-Feel free to ask assistance if the provided information is insufficient: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](help.md)
+Feel free to ask for assistance if the provided information is insufficient: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](help.md)
 
 ## Part 1: Setting up your development environment ⚙️
 
@@ -20,7 +20,7 @@ This part will guide you through setting up a local development environment wher
 ### Step 1: Download the Eclipse Installer 🌟
 
 The first step is to download the Eclipse Installer.
-You only need to download the installer once, it can automatically updates itself, and you can reuse it for any future projects you contribute to.
+You only need to download the installer once, it can automatically update itself, and you can reuse it for any future projects you contribute to.
 Choose the appropriate version based on your operating system from the following links:
 
 |                   | Windows                                 | Mac OS                                  | Linux                                   |
@@ -37,12 +37,12 @@ Once you have the Eclipse Installer, you can set up both an IDE and a workspace 
 
 **💡 Tip:** If you're on a Mac, you're using the latest version of the installer, because there used to be problems with drag&drop.
 
-If you have not yet chosen a projec to contribute to, you can for example use the setup for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
+If you have not yet chosen a project to contribute to, you can for example use the setup for **eclipse.platform.ui** [![Copy this link](https://img.shields.io/badge/Setup-orange)](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform.ui/master/releng/org.eclipse.ui.releng/platformUIConfiguration.setup "Drag this setup URL in the Eclipse installer Banner"). This will allow you to get familiar with the contribution process.
 
 ### Drag and drop the setup link in the banner
 
 1. Start the Eclipse Installer.
-2. Drag and drop the setup link direclty in the Eclipse Installer Banner
+2. Drag and drop the setup link directly in the Eclipse Installer Banner
 
 ![DragAndDrop](images/DragAndDropSetup.jpg) 
 
@@ -56,7 +56,7 @@ If you have not yet chosen a projec to contribute to, you can for example use th
    > 💡 **Tip 2**: The [advanced variable configuration](InstallerAdvancedOptions.md#advanced-variable-configuration) section describes more possibilities to configure all these locations.
    
    ![RootFolder](images/RootFolder.png)
-5. Follow the remainig steps to complete the installation.
+5. Follow the remaining steps to complete the installation.
 
 The installation process works in two phases:
 - First, the installer will set up the Eclipse IDE needed for development. When you click on finish, your IDE will start. 
