@@ -17,16 +17,17 @@ If you've missed something and think it should be referenced here, feel free to 
 
 | Type   | Level     | Description                                                 | How to do it?                                      |
 |--------|-----------|-------------------------------------------------------------|---------------------------------------------------|
-| Action | Necessary | Install an Eclipse IDE and the project to contribute to (see Part 1)    |[![Install IDE](https://img.shields.io/badge/Install-Eclipse%20IDE-blue?logo=eclipse)](https://github.com/eclipse-ide/.github/blob/main/CONTRIBUTING.md#part-1-setting-up-your) |
+| Action | Necessary | Install an Eclipse IDE and the project to contribute to (see Part 1)    |[![Eclipse FAQ](https://img.shields.io/badge/Eclipse%20FAQ-Launch%20Configuration-blue?logo=eclipse)](https://github.com/eclipse-platform/eclipse.platform/blob/master/docs/FAQ/FAQ_What_is_a_launch_configuration.md) |
 
 
 # Technical knowledge
 
 | Type          | Level       | Description                                      | How to do it?                                      |
 |---------------|-------------|--------------------------------------------------|---------------------------------------------------|
+| Skill | Essential | Add a bookmark to reference this FAQ !         |    [![Consult the Eclipse FAQ](https://img.shields.io/badge/Eclipse%20FAQ-The%20Official%20FAQ-8A2BE2?logo=eclipse)](https://github.com/eclipse-platform/eclipse.platform/blob/master/docs/FAQ/The_Official_Eclipse_FAQs.md#The-Eclipse-Community)    |
 | Skill | Essential | Be aware on how to create a Pull Request           |    [![Pull Request on GitHub](https://img.shields.io/badge/Pull%20Request-GitHub-black?logo=github)](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)            |
 | Skill         | Essential   | What is a target platform and how to use it?    |   Documentation available soon                                               |
-| Skill         | Essential   | How to create a launch configuration?           |   Documentation available soon                                             |
+| Skill         | Essential   | What is a launch configuration?           | [![Eclipse FAQ](https://img.shields.io/badge/Eclipse%20FAQ-Launch%20Configuration-8A2BE2?logo=eclipse)](https://github.com/eclipse-platform/eclipse.platform/blob/master/docs/FAQ/FAQ_What_is_a_launch_configuration.md)                                          |
 | Skill         | Essential   | What is OSGi and some tips to use it            |   Documentation available soon                                               |
 | Skill         | Essential   |If you contribute to egit/jgit, be aware of gerrithub |   [![GerritHub Documentation](https://img.shields.io/badge/GerritHub-Documentation-green?logo=gerrit)](https://review.gerrithub.io/Documentation/intro-quick.html)           |
 
