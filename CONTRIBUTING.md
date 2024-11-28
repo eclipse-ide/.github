@@ -42,7 +42,7 @@ If you have not yet chosen a project to contribute to, you can for example use t
 ### Drag and drop the setup link in the banner
 
 1. Start the Eclipse Installer.
-2. Drag and drop the setup link directly in the Eclipse Installer Banner
+2. Drag and drop the setup link directly in the Eclipse Installer Banner 
 
 ![DragAndDrop](images/DragAndDropSetup.jpg) 
 
@@ -90,9 +90,11 @@ You should see that the title of the Console view has been modified, reflecting 
 
 🎉 **Congratulations!** You’ve successfully completed the first step of becoming a contributor: you’ve installed Eclipse, made code modifications, and successfully launched a modified version of the IDE. Great job! You are now ready to dive deeper into contributing to Eclipse projects.
 
-## Part 2: Contributing to the project ⚙️
+## Part 2: Contributing to the project hosted at Github ⚙
 
-### Setting up an Eclipse and GitHub Account
+The recommended way for contributions via GitHub is to create a fork of the main project repository and to create changes only in that fork.️
+
+### Step 1: Setting up an Eclipse and GitHub Account
 
 Create an [Eclipse account](https://accounts.eclipse.org/) if you don't already have one. 
 See the ["Eclipse Foundation Account" section](https://www.eclipse.org/projects/handbook/#contributing-account) in the Eclipse Committer Handbook.
@@ -114,12 +116,36 @@ You can do this by logging into your Eclipse account, choosing ["Edit Profile"](
 To be able to push to your repository you should also add your [SSH public key to your GitHub account](https://github.com/settings/keys).
 Pushing via `https` is not recommended.
 
-## Submitting a contribution for a project hosted at Github
 
-The recommended way for contributions via GitHub is to create a fork of the main project repository and to create changes only in that fork
-(see [fork and pull model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model)
-as well as [working with fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks) in the GitHub documentation).
-Then you can create a pull request (PR) from your fork to propose your changes for submission into the main project repository.
+### Step 2: Fork the project in your account. 
+
+It takes a few seconds: connect to your github account, access to the repository and clik in the 'Fork' button:
+
+   ![Fork](images/GithubFork.jpg)  
+   
+You will be able to push in this forked repository as it is yours!
+   
+### Step 3: Add the fork as a new remote in your Eclipse configuration
+
+Configure your git repository remote to use your fork. Open the Git Repositories view (in the Git Perspective), and then add a remote:
+
+   ![Fork](images/addForkRemote.png)
+
+
+## Step 4: Branch, code, test, push and create your pull request
+
+Once you everything is configured you can start your contribution:
+
+1. create a branch to isolate your patch
+2. code, test and commit (put a message that mention the issue you have fixed)
+5. push to your **fork** remote repository
+6. create a pull request from your github fork page
+
+If the upstream has changed since you started your patch, fetch the origin, rebase on origin/updatedBranch and test again if it impacts. Then push again to your fork.
+
+
+You can get more detailed information of all of this process in this documentation: [fork and pull model](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/about-collaborative-development-models#fork-and-pull-model)
+as well as [working with fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks) in the GitHub documentation.
 
 See also
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
