@@ -1,4 +1,4 @@
-# Eclipse™ – the leading open platform for professional developers
+# Eclipse&reg; – the leading open platform for professional developers
 
 ![splash](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform/master/platform/org.eclipse.platform/splash.png)
 
@@ -53,11 +53,11 @@ Undesired Features can also be uninstalled.
 
 ## Community
 
-The _Eclipse IDE_ is an _Eclipse Community project_ and as such obeys the governance rules described in the [Eclipse Development Process](https://www.eclipse.org/projects/dev_process/) to guarantee meritocracy, diversity, vendor-neutrality and business-friendliness.
+The _Eclipse IDE_ is an _Eclipse Community project_ and as such obeys the governance rules described in the [Eclipse Foundation Development Process](https://www.eclipse.org/projects/dev_process/) to guarantee meritocracy, diversity, vendor-neutrality and business-friendliness.
 
 Please bear in mind that the Eclipse IDE as a whole and the contributing projects are often developed by volunteers and the Eclipse IDE is not a product you contracted for.
 As a result, the contributors may not be able to look into some support requests.
-As per Eclipse Development Process, the committers are committed to review incoming code contributions though.
+As per Eclipse Foundation Development Process, the committers are committed to review incoming code contributions though.
 If you do not provide the fix/implementation yourself (or pay someone to do it for you), a bug you reported might never get fixed.
 If it is a serious bug, other people than you might care enough to provide a fix.
 As a consequence of all that, the only sure way to ensure some issue gets fixed or some feature gets implemented is that you contribute it yourself and convince some contributor that the change you submit is in the best interest of the project.
