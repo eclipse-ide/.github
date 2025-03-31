@@ -11,7 +11,7 @@ Just use the shortcut **Alt+Shift+F1** to instantly see the plugin containing th
 
 📥 To start contributing, select the _Setup_ file of the project of your choice.
 This will fetch the code directly from the project's main git repository, allowing you to make modifications and to propose them to the projects, for example as GitHub _pull request_ (PRs).
-The [General Contirbutor Guide](CONTRIBUTING.md) describes in detail how to use these setups and you can consult the associated project specific _Contributor Guides_ listed in the table below.
+The [General Contributor Guide](CONTRIBUTING.md) describes in detail how to use these setups and you can consult the associated project specific _Contributor Guides_ listed in the table below.
 After that, each project has its own contribution rules, but overall, they are quite similar and typically involve submitting your work as a Pull Request on GitHub or a Change on GerritHub.
 
 🚀 You’ve got this! With the right tools and support, contributing to Eclipse is easier than you might think. Dive in and start making a difference!
