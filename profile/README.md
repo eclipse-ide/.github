@@ -1,27 +1,21 @@
-# Eclipse&reg; – the leading open platform for professional developers
-
-![splash](https://raw.githubusercontent.com/eclipse-platform/eclipse.platform/master/platform/org.eclipse.platform/splash.png)
-
-### WARNING
-This page is currently under construction and will become the starting-point for everyone interested in the development of the Eclipse IDE,
-including an exhaustive guide for contributors and information to find the right repository to report an issue.
+# Eclipse&reg; – The leading open platform for professional developers
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eclipse-platform/eclipse.platform/master/platform/org.eclipse.platform/splash.png" alt="Description" width="300"/>
+</p>
 
 ---
-
-Eclipse is the leading open platform for professional developers.
-
+<h2 align="center">This page is intended as starting point for everyone interested in contributing to <br/> the Eclipse IDE and the Rich Client Platform (RCP) </h2>
 Eclipse is famous for being an _Integrated Development Environment_ (IDE) for the _Java_™ programming language but is also well capable of other languages like C/C++, JavaScript or TypeScript, to just name a few.
 At its core Eclipse is a highly extensible platform and a comprehensive set of frameworks and common services that collectively provide a powerful software development infrastructure used for numerous free and open as well as for commercial products and applications.
 
-This page is intended as starting point for everyone interested in contributing to the Eclipse IDE.
-<br>
-Users of the Eclipse IDE should visit [eclipseide.org](https://eclipseide.org)
+## Developing and Contributing - Starting point
 
-## Developing and Contributing
-
-Thank you for your interest in contributing to Eclipse. Contributions are more than welcome!
+Thank you for your interest: contributions are more than welcome!
 
 The [CONTRIBUTING](../CONTRIBUTING.md) section provides the information to guide you through the contribution process, after you have identified the project you want to contribute to.
+<br>
+
+(Non contributing) Users of the Eclipse IDE should visit [eclipseide.org](https://eclipseide.org)
 
 ## Structure of the Eclipse IDE and its eco-system
 
@@ -66,7 +60,7 @@ As you contribute more and more, you will eventually get nominated as a committe
 
 ## Contact
 
-If the provided information is insufficient: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](../help.md)
+If you need more help: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](../help.md)
 
 ## Technical and reference documentation
 
