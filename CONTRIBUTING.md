@@ -1,13 +1,13 @@
 
-# Your Contributor Journey 🚀
+# Your Contributor Journey
 
-Welcome to the start of an exciting journey as a contributor to the Eclipse IDE project! 🌟
+Welcome to the start of an exciting journey as a contributor to the Eclipse IDE project!
 Becoming a contributor is more than just writing code — it's about joining a vibrant community, learning new skills, and making a real impact.
 Whether you're looking to sharpen your abilities or give back to open source, you're in the right place.
 
 Of course, contributing to an open-source project like Eclipse means making sure you've mastered **[a few prerequisites](Prerequisites.md)**
 
-This guide is split into two parts to help you get started:
+This guide is split into two parts to help you get started after you found the [project](projects.md) you want to contribute to:
 
 1. **Part 1: Setting up your development environment** – This quick and easy step will take around 10 minutes. You’ll install everything you need to start testing modifications in a working development environment, without any constraints. It’s perfect for seeing how anyone can easily make code changes locally in Eclipse!
 
@@ -134,7 +134,7 @@ Configure your git repository remote to use your fork. Open the Git Repositories
    ![Fork](images/addForkRemote.png)
 
 
-## Step 4: Branch, code, test, push and create your pull request
+### Step 4: Branch, code, test, push and create your pull request
 
 Once you everything is configured you can start your contribution:
 

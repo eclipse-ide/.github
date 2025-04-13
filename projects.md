@@ -1,21 +1,21 @@
 # The different projects in the Eclipse IDE and their setup :computer:
 
-Contributing to Eclipse open source projects involved is a straightforward process, and you’ll be working with an awesome community.
+Contributing to Eclipse open source projects involved is a straightforward process and you’ll be working with an awesome community.
 
-Each project is usally split into two parts: A _Core_ (handling the internal logic) and a _UI_ (managing the user interface).
-Sometimes these are in separate repositories, and other times they are organized in different folders within the same repository.
+Each project is usually divided into two parts: A _Core_ (which handles the internal logic) and a _UI_ (which handles the user interface).
+Sometimes these are in separate repositories, and sometimes they are organized in different folders within the same repository.
 This makes it easier to understand the internal workings and how they are presented to users.
 
-🎯 If you need to fix something in the user interface — whether it’s a dialog, view, perspective, or preferences page — you can easily find the Java class implementing the UI element.
+🎯 If you need to fix something in the user interface — whether it’s a dialog, a view, a perspective, or a preferences page — you can easily find the Java class implementing the UI element.
 Just use the shortcut **Alt+Shift+F1** to instantly see the plugin containing the class, so you know exactly which project to work on.
+<br>
+If you encounter an error, the error message and stack trace will usually help you to identify the part of the code, and therefore the project, where the error occurred or was caused.
+It's common that at least some lines of the project, that is causing the error, occure in the error's stack trace.
 
 📥 To start contributing, select the _Setup_ file of the project of your choice.
 This will fetch the code directly from the project's main git repository, allowing you to make modifications and to propose them to the projects, for example as GitHub _pull request_ (PRs).
-The [General Contributor Guide](CONTRIBUTING.md) describes in detail how to use these setups and you can consult the associated project specific _Contributor Guides_ listed in the table below.
-After that, each project has its own contribution rules, but overall, they are quite similar and typically involve submitting your work as a Pull Request on GitHub or a Change on GerritHub.
-
-🚀 You’ve got this! With the right tools and support, contributing to Eclipse is easier than you might think. Dive in and start making a difference!
-
+The [General Contributor Guide](CONTRIBUTING.md) describes how to use these setups in detail, and you can consult the associated project specific _Contributor Guides_ listed in the table below.
+After that, each project has its own contribution rules, but overall, they are quite similar and typically involve submitting your work as a Pull Request on GitHub or as a Change on GerritHub.
 
 | Project | Repository and Setup | Description | Contribution Page and Good First Issues | 
 |---------|------------|-------------|-------------------|
