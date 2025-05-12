@@ -153,3 +153,7 @@ See also
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 - https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+
+### ### Step 5: Write a New and Noteworthy Entry Upon Committer Request
+
+When relevant, the committer may suggest that you write a short description of your work for a New and Noteworthy entry. New and Noteworthy entries for top-level projects are, for instance, visible [on this page](https://eclipseide.org/release/noteworthy/). This is a way to showcase your work with a link to your GitHub profile, and also to highlight the changes included in the current release.
