@@ -157,6 +157,6 @@ See also
 ### ### Step 5: Write a New and Noteworthy Entry Upon Committer Request
 
 In some cases, the committer may invite you to write a short description of your work for a New and Noteworthy entry.
-New and Noteworthy entries for top-level projects are, for instance, visible [on this page](https://eclipseide.org/release/noteworthy/). 
+New and Noteworthy entries for top-level projects are, for instance, visible [on this page](https://eclipse.dev/eclipse/news/news.html/). 
 This helps to highlight the changes included in the current release.
 It is also a good opportunity to promote your contribution to the project.
