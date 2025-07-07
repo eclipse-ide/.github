@@ -72,7 +72,7 @@ This ensures that both your development environment and the project are properly
 
 Now that you have the project set up, it's time to dive into the code! Open the project in Eclipse, find a part of the code you'd like to modify (e.g., fixing a bug or improving a feature), and make your changes. Even if you’re new to the codebase, this is a great way to get started and familiarize yourself with how everything works.
 
-💡 **Idea**: If you're not sure what to change in the code for now, you can open in the `org.eclipse.ui.console` project the `plugin.properties` file and modify line 17 to change the name of the console view. This is a simple way to make a visible modification and see your changes in action.
+💡 **Idea**: If you're not sure what to change in the code for now, you can open in the `org.eclipse.ui.ide` project the `plugin.properties` file and modify the line 85 to change the name of the problems view (for instance : Views.Problem = Problems found). This is a simple way to make a visible modification and see your changes in action.
 
 _Of course this modification is only possible if you have chosen the **eclipse.platform.ui** setup._
 
@@ -83,12 +83,15 @@ After making your changes, the final step is to test them! Launch a new instance
 
 To run your changes:
 1. Go to the **Run** menu in Eclipse.
-2. Select the **Runtime Workspace** configuration that has been prepared for you.
-3. Once the new Eclipse instance has launched, open the **Console** view to see the result of your changes (go to **Window** -> **Show View** -> **Console**).
+2. Select  **Run configurations...** and create a new Eclipse Application configuration (Select Eclipse Application and click in the 'New' icon button in the toolbar, or in the context menu).
+3. Launch it directly (this will launch all the plugins from your workspace into a new Eclipse Instance).
+4. In the new Eclipse instance, open the **Problem** view to see the result of your changes (go to **Window** -> **Show View** -> **Problems** if it is not already displayed).
 
-You should see that the title of the Console view has been modified, reflecting the changes you made in the code.
+You should see that the title of the Problems view has been modified, reflecting the changes you made in the code.
 
-![Copy setup](images/RunYourChanges.jpg)
+
+![image](https://github.com/user-attachments/assets/45f25533-c3bd-46c2-8b77-8f39d4a6341f)
+
 
 🎉 **Congratulations!** You’ve successfully completed the first step of becoming a contributor: you’ve installed Eclipse, made code modifications, and successfully launched a modified version of the IDE. Great job! You are now ready to dive deeper into contributing to Eclipse projects.
 
