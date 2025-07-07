@@ -155,7 +155,7 @@ See also
 - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork
 - https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
 
-### ### Step 5: Write a New and Noteworthy Entry Upon Committer Request
+### Step 5: Write a New and Noteworthy Entry Upon Committer Request
 
 In some cases, the committer may invite you to write a short description of your work for a New and Noteworthy entry.
 New and Noteworthy entries for top-level projects are, for instance, visible [on this page](https://eclipse.dev/eclipse/news/news.html/). 
