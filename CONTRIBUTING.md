@@ -15,6 +15,11 @@ This guide is split into two parts to help you get started after you found the [
 
 Feel free to ask for assistance if the provided information is insufficient: [![Assistance](https://img.shields.io/badge/Ask_for_assistance-red?style=for-the-badge&logo=eclipseide)](help.md)
 
+And in this video, you can find information explaining why and how to contribute (starting at 1 hour 2 minutes 40 seconds).
+
+[![Voir la vidéo à 1h02m30s](https://img.youtube.com/vi/_8VmqHYdPLU/0.jpg)](https://www.youtube.com/watch?v=_8VmqHYdPLU&t=1h2m40s)
+
+
 ## Part 1: Setting up your development environment ⚙️
 
 This part will guide you through setting up a local development environment where you can test code modifications. It's designed to be simple and ensures that everyone can make changes locally in Eclipse  and will take around 10 minutes.
