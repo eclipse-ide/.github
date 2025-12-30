@@ -166,3 +166,16 @@ In some cases, the committer may invite you to write a short description of your
 New and Noteworthy entries for top-level projects are, for instance, visible [on this page](https://eclipse.dev/eclipse/news/news.html/). 
 This helps to highlight the changes included in the current release.
 It is also a good opportunity to promote your contribution to the project.
+
+
+## Community resources
+
+The following resources can help contributors stay connected with the wider Eclipse community
+and learn about upcoming events and initiatives.
+
+- **Eclipse Project Calendar and some community videos**  
+  Overview of upcoming and past Eclipse community events, including technical webinars.  
+  https://www.eclipse.org/projects/calendar/
+- **Eclipse Foundation Development Process**  
+  Describes the Eclipse Foundation Development Process, including the governance and lifecycle rules that apply to Eclipse projects.
+  https://www.eclipse.org/projects/dev_process/
