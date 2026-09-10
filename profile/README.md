@@ -1,4 +1,4 @@
-# Eclipse® – The leading open platform for professional developers
+# Eclipse® – Open, industry-backed, and community driven
 <p align="center">
   <img src="https://raw.githubusercontent.com/eclipse-platform/eclipse.platform/master/platform/org.eclipse.platform/splash.png" alt="Eclipse splash"/>
 </p>
